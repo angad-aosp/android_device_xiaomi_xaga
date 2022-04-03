@@ -33,3 +33,6 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Inherit the proprietary files
 include vendor/xiaomi/xaga/BoardConfigVendor.mk
+
+# Inherit from proprietary files for miuicamera
+-include device/xiaomi/miuicamera-xaga/BoardConfig.mk
