@@ -1,4 +1,5 @@
-# All unpinned blobs below are extracted from xaga-user 14 SP1A.210812.016 V816.0.11.0.ULOCNXM release-keys
+# All unpinned blobs below are extracted from xaga-user 14 SP1A.210812.016 OS2.0.3.0.ULOCNXM release-keys
+# gale: gale_global 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
 
 # Audio Configs
 vendor/etc/audio_param/AudioParamOptions_vext.xml
@@ -419,7 +420,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
-# Camera (Algo Engine) - from gale_global 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
+# Camera (Algo Engine) - from gale
 vendor/lib64/libmialgoengine.so|0e1c70fb6220154096a9e8c842d20485f4d477a8
 vendor/lib64/libmialgoengine2.so|17f87c6aaf130aa3520eecfd4ee45abd796853da
 
