@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from xaga-user 14 SP1A.210812.016 OS2.0.3.0.ULOCNXM release-keys
+# All unpinned blobs below are extracted from xaga-user 14 SP1A.210812.016 OS2.0.7.0.ULOCNXM release-keys
 # gale: gale_global 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
 
 # Audio Configs
