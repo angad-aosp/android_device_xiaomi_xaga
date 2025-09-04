@@ -14,16 +14,16 @@ $(call inherit-product, device/xiaomi/xaga/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_BRAND := Redmi
+PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := xaga
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := 22041216C
+PRODUCT_MODEL := 22041216G
 PRODUCT_NAME := lineage_xaga
-PRODUCT_SYSTEM_NAME := xaga
+PRODUCT_SYSTEM_NAME := xaga_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="xaga-user 14 SP1A.210812.016 OS2.0.7.0.ULOCNXM release-keys" \
-    BuildFingerprint=Redmi/xaga/xaga:12/SP1A.210812.016/OS2.0.7.0.ULOCNXM:user/release-keys \
+    BuildDesc="xaga_global-user 14 UP1A.231005.007 OS2.0.3.0.ULOMIXM release-keys" \
+    BuildFingerprint=POCO/xaga_global/xaga:14/UP1A.231005.007/OS2.0.3.0.ULOMIXM:user/release-keys \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
