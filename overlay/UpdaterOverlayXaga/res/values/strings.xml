@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string
+        name="updater_server_url"
+        translatable="false"
+    >https://raw.githubusercontent.com/angad-aosp/PIXELOS-OTA/refs/heads/xaga/updates.json</string>
+    <string
+        name="changelog_url"
+        translatable="false"
+    >https://raw.githubusercontent.com/angad-aosp/PIXELOS-OTA/refs/heads/xaga/xaga.md</string>
+</resources>

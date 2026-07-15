@@ -1,0 +1,49 @@
+[
+  {
+    "repository": "lineageos/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "angad-aosp/android_device_xiaomi_mt6895-common",
+    "target_path": "device/xiaomi/mt6895-common",
+    "branch": "main"
+  },
+  {
+    "repository": "angxddeep/android_vendor_xiaomi_mt6895-common",
+    "target_path": "vendor/xiaomi/mt6895-common",
+    "branch": "main",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "angxddeep/android_vendor_xiaomi_xaga",
+    "target_path": "vendor/xiaomi/xaga",
+    "branch": "main",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "angad-aosp/android_kernel_xiaomi_mt6895",
+    "target_path": "kernel/xiaomi/mt6895",
+    "branch": "main"
+  },
+  {
+    "repository": "angad-aosp/android_device_xiaomi_miuicamera-xaga",
+    "target_path": "device/xiaomi/miuicamera-xaga",
+    "branch": "main"
+  },
+  {
+    "repository": "angxddeep/android_vendor_xiaomi_miuicamera-xaga",
+    "target_path": "vendor/xiaomi/miuicamera-xaga",
+    "branch": "main",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr",
+    "branch": "lineage-23.2"
+  },
+  {
+    "repository": "angad-aosp/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch": "main"
+  }
+]

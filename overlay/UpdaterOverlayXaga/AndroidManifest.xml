@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.pixelos.ota.overlay.xaga"
+>
+    <overlay
+        android:isStatic="true"
+        android:priority="1"
+        android:targetPackage="net.pixelos.ota"
+    />
+</manifest>

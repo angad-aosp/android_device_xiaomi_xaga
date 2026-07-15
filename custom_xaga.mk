@@ -11,14 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from xaga device
 $(call inherit-product, device/xiaomi/xaga/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+TARGET_SCREEN_HEIGHT := 2460
+TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := xaga
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 22041216G
-PRODUCT_NAME := lineage_xaga
+PRODUCT_NAME := custom_xaga
 PRODUCT_SYSTEM_NAME := xaga_global
 
 PRODUCT_CHARACTERISTICS := nosdcard
